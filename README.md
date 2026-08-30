@@ -22,6 +22,8 @@ Can be accessed from [`rrdr.io`](https://rdrr.io/snippets/embed/) directly, or y
 
 This live bash terminal is provided by [its-a-unix-system](https://github.com/Property404/its-a-unix-system). We included a working example [in this repo](tools/its-a-unix-system/index.html).
 
+You can use it in an `iframe` as well:
+
 <iframe src="tools/its-a-unix-system/index.html" style="width: 800px;height: 600px;">
 </iframe>
 
