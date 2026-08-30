@@ -14,6 +14,7 @@ Please cite this reference if you use them in your classes:
 1. [R](#r-coding-widget- from-rdrrio)
 1. [Bash](#bash-terminal-editor)
 1. [Regular expressions](#regular-expressions)
+1. [SQL](#sql)
 
 ## Examples
 
@@ -53,4 +54,14 @@ Regular expression execution and documentation and can be embedded from [`RegExr
 Other alternatives:
 - [Regex101.com](https://regex101.com/)
 
+### SQL
+
+![](./Screenshot_SQLjs.png)
+
+SQL execution from [SQL.js.org](https://sql.js.org/examples/GUI/) with `iframe` code:
+
+<iframe width="100%" height="800" src="https://sql.js.org/examples/GUI/" frameborder="0"></iframe>
+
+Other alternatives:
+- [DuckDB shell](https://shell.duckdb.org/)
 
