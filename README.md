@@ -17,6 +17,9 @@ Can be accessed from [`rrdr.io`](https://rdrr.io/snippets/embed/) directly, or y
 </iframe>
 ```
 
+<iframe width="100%" height="400" src="https://rdrr.io/snippets/embed/" frameborder="0">
+</iframe>
+
 ### Bash terminal editor
 
 ![](./Screenshot_bash_dagans_faunix.png)
