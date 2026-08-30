@@ -12,10 +12,6 @@ Reference: Cengiz Gunay (2026). "Lightweight and inexpensive interactive program
 ![](/Screenshot_rdrr_io.png)
 
 Can be accessed from [`rrdr.io`](https://rdrr.io/snippets/embed/) directly, or you can use it in an `iframe`:
-```html
-<iframe width="100%" height="400" src="https://rdrr.io/snippets/embed/" frameborder="0">
-</iframe>
-```
 
 <iframe width="100%" height="400" src="https://rdrr.io/snippets/embed/" frameborder="0">
 </iframe>
@@ -24,9 +20,9 @@ Can be accessed from [`rrdr.io`](https://rdrr.io/snippets/embed/) directly, or y
 
 ![](./Screenshot_bash_dagans_faunix.png)
 
-This live bash terminal is provided by [its-a-unix-system](https://github.com/Property404/its-a-unix-system). A working example is provided [here](tools/its-a-unix-system/index.html).
+This live bash terminal is provided by [its-a-unix-system](https://github.com/Property404/its-a-unix-system). We included a working example [in this repo](tools/its-a-unix-system/index.html).
 
-```html
 <iframe src="tools/its-a-unix-system/index.html" style="width: 800px;height: 600px;">
 </iframe>
-```
+
+
