@@ -3,12 +3,17 @@
 
 This project aims to provide some bookmarks for WebAssembly (WASM) coding widgets that run completely in the browser and thus requiring no backend. Copy-paste the widget codes below to use inside LMS assessments (quizzes, assignments, etc). They have been tested in the Desire2Learn (D2L) Brightspace system.
 
-Reference: Cengiz Gunay (2026). "Lightweight and inexpensive interactive programming widgets for providing authentic coding assessment inside your LMS". Presented at the _2026 Annual CCSC:Southeastern (CCSC:SE) Conference_ at East Tennessee State University. October 23-24, 2026. 
+See the [web page version](https://cengique.github.io/lms-coding-widgets/#bash-terminal-editor) for live examples of the below Markdown `iframe`s.
+
+Please cite this reference if you use them in your classes: 
+
+> Cengiz Gunay (2026). "Lightweight and inexpensive interactive programming widgets for providing authentic coding assessment inside your LMS". Presented at the _2026 Annual CCSC:Southeastern (CCSC:SE) Conference_ at East Tennessee State University. October 23-24, 2026. 
 
 ## Contents
 
 1. [R](#r-coding-widget- from-rdrrio)
 1. [Bash](#bash-terminal-editor)
+1. [Regular expressions](#regular-expressions)
 
 ## Examples
 
@@ -36,4 +41,16 @@ Other alternatives:
 - [wasi-fs-access demo](https://wasi.rreverser.com/) by [Google Chrome Labs](https://github.com/GoogleChromeLabs/wasi-fs-access)
 - [Wasmer + Ghostty-web](https://ghostty-web.wasmer.app/) by [wasmerio](https://github.com/wasmerio/webassembly.sh)
 - [WebAssembly.sh](https://webassembly.sh/) by [Fermyon](https://developer.fermyon.com/wasm-languages/shell)
+
+### Regular expressions
+
+![](./Screenshot_regexrr.png)
+
+Regular expression execution and documentation and can be embedded from [`RegExr.com`](https://regexr.com/). Iframe code:
+
+<iframe src="https://regexr.com/" width="800" height="400"></iframe>
+
+Other alternatives:
+- [Regex101.com](https://regex101.com/)
+
 
