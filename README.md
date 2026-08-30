@@ -17,6 +17,7 @@ Please cite this reference if you use them in your classes:
 1. [SQL](#sql)
 1. [HTML, CSS, Javascript](#html-css-javascript)
 1. [Python](#python)
+1. [Web APIs](#web-apis)
 
 ## Examples
 
@@ -84,3 +85,14 @@ Other alternatives:
 [JupyterLite](https://jupyterlite.github.io) is a WASM implementation of Python's Jupyter notebooks with a light [REPL implementation](https://jupyterlite.github.io/demo/repl/index.html) that can be embedded in `iframe`s. Note that you can change the starting code in the link.
 
 <iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&amp;toolbar=1&amp;code=..." width="800px" height="600px"></iframe>
+
+### Web APIs
+
+![](images/Screenshot_jq_json_apis.png)
+
+[JQ playground](https://play.jqlang.org/) allows a flexible API fetching interface and allows embedding in `iframe`s, although it can be glitchy sometimes. [JQ provides a scripting language](https://jqlang.org/tutorial/) for easy parsing of JSON output fetched from APIs.
+
+<iframe src="https://play.jqlang.org/" style="width: 800px;height: 800px;"></iframe>
+
+Other alternatives:
+- [Simple HTML and Javascript textbox](tools/fetchapi.html) for fetching any API and viewing the resulting JSON.
