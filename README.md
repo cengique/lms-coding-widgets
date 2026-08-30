@@ -11,6 +11,8 @@ Reference: Cengiz Gunay (2026). "Lightweight and inexpensive interactive program
 
 ![](/Screenshot_rdrr_io.png)
 
+Can be accessed from (`rrdr.io`)[https://rdrr.io/snippets/embed/] directly, or you can use an `iframe`:
 ```html
-<iframe width="100%" height="400" src="https://rdrr.io/snippets/embed/" frameborder="0"></iframe>
+<iframe width="100%" height="400" src="https://rdrr.io/snippets/embed/" frameborder="0">
+</iframe>
 ```
