@@ -15,6 +15,7 @@ Please cite this reference if you use them in your classes:
 1. [Bash](#bash-terminal-editor)
 1. [Regular expressions](#regular-expressions)
 1. [SQL](#sql)
+1. [HTML, CSS, Javascript](#html-css-javascript)
 
 ## Examples
 
@@ -65,3 +66,12 @@ SQL execution from [SQL.js.org](https://sql.js.org/examples/GUI/) with `iframe` 
 Other alternatives:
 - [DuckDB shell](https://shell.duckdb.org/)
 
+### HTML, CSS, Javascript
+
+![](./Screenshot_html_codepen.png)
+
+[CodePen](https://codepen.io/) provides editing and executing, which can be embedded as an `iframe` (you may need to build an example and get an embedded sharing link):
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" 
+        src="https://codepen.io/" allowfullscreen="allowfullscreen">
+</iframe>
