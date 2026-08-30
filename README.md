@@ -16,12 +16,13 @@ Please cite this reference if you use them in your classes:
 1. [Regular expressions](#regular-expressions)
 1. [SQL](#sql)
 1. [HTML, CSS, Javascript](#html-css-javascript)
+1. [Python](#python)
 
 ## Examples
 
 ### R coding widget from `rdrr.io`
 
-![](/Screenshot_rdrr_io.png)
+![](images/Screenshot_rdrr_io.png)
 
 Can be accessed from [`rrdr.io` directly](https://rdrr.io/snippets/embed/), or you can use it in an `iframe`:
 
@@ -30,7 +31,7 @@ Can be accessed from [`rrdr.io` directly](https://rdrr.io/snippets/embed/), or y
 
 ### Bash terminal editor
 
-![](./Screenshot_bash_dagans_faunix.png)
+![](images/Screenshot_bash_dagans_faunix.png)
 
 Live bash terminal provided by [its-a-unix-system](https://github.com/Property404/its-a-unix-system) with a [live demo](https://dagans.dev/projects/its-a-unix-system/dist/index.html). A [working example](tools/its-a-unix-system/index.html) is also included here.
 
@@ -46,7 +47,7 @@ Other alternatives:
 
 ### Regular expressions
 
-![](./Screenshot_regexrr.png)
+![](images/Screenshot_regexrr.png)
 
 Regular expression execution and documentation and can be embedded from [`RegExr.com`](https://regexr.com/). Iframe code:
 
@@ -57,7 +58,7 @@ Other alternatives:
 
 ### SQL
 
-![](./Screenshot_SQLjs.png)
+![](images/Screenshot_SQLjs.png)
 
 SQL execution from [SQL.js.org](https://sql.js.org/examples/GUI/) with `iframe` code:
 
@@ -68,10 +69,18 @@ Other alternatives:
 
 ### HTML, CSS, Javascript
 
-![](./Screenshot_html_codepen.png)
+![](images/Screenshot_html_codepen.png)
 
 [CodePen](https://codepen.io/) provides editing and executing, which can be embedded as an `iframe` (you may need to build an example and get an embedded sharing link):
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" 
         src="https://codepen.io/" allowfullscreen="allowfullscreen">
 </iframe>
+
+### Python
+
+![](images/Screenshot_jupyterlite.png)
+
+[JupyterLite](https://jupyterlite.github.io) is a WASM implementation of Python's Jupyter notebooks with a light [REPL implementation](https://jupyterlite.github.io/demo/repl/index.html) that can be embedded in `iframe`s. Note that you can change the starting code in the link.
+
+<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&amp;toolbar=1&amp;code=..." width="800px" height="600px"></iframe>
