@@ -3,7 +3,7 @@
 
 This project aims to provide some bookmarks for WebAssembly (WASM) coding widgets that run completely in the browser and thus requiring no backend. Copy-paste the widget codes below to use inside LMS assessments (quizzes, assignments, etc). They have been tested in the Desire2Learn (D2L) Brightspace system.
 
-See the [web page version](https://cengique.github.io/lms-coding-widgets/) for live examples of the below Markdown `iframe`s.
+See the [web page version](https://cengique.github.io/lms-coding-widgets/) for live examples of the below Markdown `iframe`s and the [Github repository](https://github.com/cengique/lms-coding-widgets) for the actual code.
 
 Please cite this reference if you use them in your classes: 
 
