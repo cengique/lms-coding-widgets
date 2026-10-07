@@ -11,7 +11,7 @@ Please cite this reference if you use them in your classes:
 
 ## Contents
 
-1. [R](#r-coding-widget- from-rdrrio)
+1. [R](#r-coding-widget-from-rdrrio)
 1. [Bash](#bash-terminal-editor)
 1. [Regular expressions](#regular-expressions)
 1. [SQL](#sql)
@@ -80,11 +80,21 @@ Other alternatives:
 
 ### Python
 
+#### JupyterLite
+
 ![](images/Screenshot_jupyterlite.png)
 
 [JupyterLite](https://jupyterlite.github.io) is a WASM implementation of Python's Jupyter notebooks with a light [REPL implementation](https://jupyterlite.github.io/demo/repl/index.html) that can be embedded in `iframe`s. Note that you can change the starting code in the link.
 
 <iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&amp;toolbar=1&amp;code=..." width="800px" height="600px"></iframe>
+
+#### Brython
+
+![](images/Screenshot_Brython.png)
+
+[Brython](https://brython.info/index.html) is Python editor and runtime in WASM that can be embedded in `iframe`s. Note that you can change the starter code in the link below.
+
+<iframe src="https://brython.info/tests/editor.html?lang=en&code=starter" width="800px" height="600px"></iframe>
 
 ### Web APIs
 
