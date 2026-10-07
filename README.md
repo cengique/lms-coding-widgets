@@ -1,7 +1,7 @@
 
 # lms-coding-widgets: A collection of interactive programming widgets for use in learning management systems (LMSs)
 
-This project aims to provide some bookmarks for WebAssembly (WASM) coding widgets that run completely in the browser and thus requiring no backend. Copy-paste the widget codes below to use inside LMS assessments (quizzes, assignments, etc). They have been tested in the Desire2Learn (D2L) Brightspace system.
+This is a list of bookmarks for WebAssembly (WASM) coding widgets that run completely in the browser and thus require no backend server. Copy-paste the code for the widget you desire below to use inside LMS assessments (quizzes, assignments, etc). They have been tested in the Desire2Learn (D2L) Brightspace system.
 
 See the [web page version](https://cengique.github.io/lms-coding-widgets/) for live examples of the below Markdown `iframe`s and the [Github repository](https://github.com/cengique/lms-coding-widgets) for the actual code.
 
@@ -18,6 +18,7 @@ Please cite this reference if you use them in your classes:
 1. [HTML, CSS, Javascript](#html-css-javascript)
 1. [Python](#python)
 1. [Web APIs](#web-apis)
+1. [Providing starter code](#providing-starter-code)
 
 ## Examples
 
@@ -84,7 +85,7 @@ Other alternatives:
 
 ![](images/Screenshot_jupyterlite.png)
 
-[JupyterLite](https://jupyterlite.github.io) is a WASM implementation of Python's Jupyter notebooks with a light [REPL implementation](https://jupyterlite.github.io/demo/repl/index.html) that can be embedded in `iframe`s. Note that you can change the starting code in the link.
+[JupyterLite](https://jupyterlite.github.io) is a WASM implementation of Python's Jupyter notebooks with a light [REPL implementation](https://jupyterlite.github.io/demo/repl/index.html) that can be embedded in `iframe`s. Note that you can change the starting code in the link (also see [how to provide starter code](#providing-starter-code)).
 
 <iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&amp;toolbar=1&amp;code=..." width="800px" height="600px"></iframe>
 
@@ -92,7 +93,7 @@ Other alternatives:
 
 ![](images/Screenshot_Brython.png)
 
-[Brython](https://brython.info/index.html) is Python editor and runtime in WASM that can be embedded in `iframe`s. Note that you can change the starter code in the link below.
+[Brython](https://brython.info/index.html) is Python editor and runtime in WASM that can be embedded in `iframe`s. Note that you can change the starter code in the link below (also see [how to provide starter code](#providing-starter-code)).
 
 <iframe src="https://brython.info/tests/editor.html?lang=en&code=starter" width="800px" height="600px"></iframe>
 
@@ -106,3 +107,19 @@ Other alternatives:
 
 Other alternatives:
 - [Simple HTML and Javascript textbox](tools/fetchapi.html) for fetching any API and viewing the resulting JSON.
+
+### Providing starter code
+
+The links that provide starter code require that its contents URL encoded. To achieve this, use the `encodeURI` JavaScript function available in your browser's Inspect panel Console section. Here is an example:
+
+```javascript
+>> encodeURI(`
+a = 5
+b = 10
+print(a + 5)
+`)
+"%0Aa%20=%205%0Ab%20=%2010%0Aprint(a%20+%205)%0A"
+```
+
+Copy the URL-encoded string that resulted to the URL that you need such as in: `https://brython.info/tests/editor.html?lang=en&code=%0Aa%20=%205%0Ab%20=%2010%0Aprint(a%20+%205)%0A`.
+
