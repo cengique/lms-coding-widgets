@@ -21,7 +21,7 @@
   "license": "MIT",
   "author": "Cengiz Gunay <cengique@users.sf.net>",
   "type": "module",
-  "main": "slides/index.html",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
