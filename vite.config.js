@@ -4,6 +4,7 @@ import { parse } from 'marked';
 import fs from 'node:fs/promises';
 
 export default defineConfig({
+  base: 'lms-coding-widgets', 
   build: {
     rollupOptions: {
       // Point the input to your custom HTML file
