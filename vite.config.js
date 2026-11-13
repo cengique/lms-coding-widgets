@@ -28,7 +28,6 @@ export default defineConfig({
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>README</title>
   <style> ${css} </style>
-  <link rel="stylesheet" href="https://jsdelivr.net">
 </head>
 <body>
 <main class="markdown-body" style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
